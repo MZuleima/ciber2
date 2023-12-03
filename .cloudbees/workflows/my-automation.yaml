@@ -1,4 +1,4 @@
-apiVersion: v1alpha1
+apiVersion: automation.cloudbees.io/v1alpha1
 kind: Workflow
 metadata:
   name: my-automation
