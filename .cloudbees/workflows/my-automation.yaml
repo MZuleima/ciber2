@@ -1,10 +1,10 @@
-apiVersion: automation.cloudbees.io/v1alpha1
+apiVersion: workflow
 kind: Workflow
 metadata:
   name: my-automation
 spec:
   agent: any
   stages:
-    - name: "Verificar Conexión al Repositorio"
+    - name: "Verificar Conexión"
       steps:
         - checkout scm
